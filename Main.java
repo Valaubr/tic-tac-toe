@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Main {
     public static int turn = 2;
     public static void main(String[] args) {
-        String [][] theGame = startGame();
+        String [][] theGame = startGame(); //объявим двумерный массив размером 3 на 3 и заполнием его знаками "-"
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); 
         while (true){
-            int first = scanner.nextInt();
+            int first = scanner.nextInt(); //Узнаем куда пользователь хочет поставить 
             int twelf = scanner.nextInt();
             try {
                 if (turn < 10){
